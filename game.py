@@ -23,7 +23,7 @@ options = ["rock", "paper", "scissors"]
 # Validation adapted from Gianna Valencia in Slack
 
 if user_choice not in options:
-    print("That isn't an option, please choose rock, paper, or scissors!")
+    print("That isn't an option, please play again and choose rock, paper, or scissors!")
     exit()
 
 computer_choice = random.choice(options)
