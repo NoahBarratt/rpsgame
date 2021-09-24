@@ -4,4 +4,4 @@
 
 # To run game, download file "rpsgame" from GitHub to Desktop, open Terminal, activate game-specific environment, type: cd Desktop/GitHub/rpsgame , press enter, then type: python game.py
 
-# To change player name, first install package within game-specific Anaconda virtual environment with the command: pip install python-dotenv , then create file titled .env on VS Code or preferred text editor, write PLAYER_NAME="Desired Name" in file
+# To change player name, first install package within game-specific Anaconda virtual environment with the command: pip install python-dotenv , then create file titled .env on VS Code or preferred text editor, write PLAYER_NAME="Desired Name" in file and save file within folder titled "rpsgame"
