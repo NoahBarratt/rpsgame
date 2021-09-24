@@ -3,8 +3,12 @@
 import random
 
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+x = os.getenv("PLAYER_NAME")
 
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome " ,x, " to my Rock-Paper-Scissors game...")
 print("Rock, Paper, Scissors, Shoot!")
 
 # PROMPT USER FOR INPUT
