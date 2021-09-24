@@ -16,7 +16,6 @@ print("Rock, Paper, Scissors, Shoot!")
 #x = input("Choose 'rock' or 'paper' or 'scissors'")
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
 
-
 # COMPUTER CHOICE AT RANDOM
 
 options = ["rock", "paper", "scissors"]
@@ -69,6 +68,5 @@ if computer_choice == "rock" and user_choice == "rock":
 if computer_choice == "scissors" and user_choice == "scissors":
     print("It's a tie!")
     print("Thanks for playing. Please play again!")
-
 
 
