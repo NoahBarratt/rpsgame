@@ -8,7 +8,7 @@
 # To install game, fork rpsgame repository from GitHub, available at https://github.com/NoahBarratt/rpsgame , and download remote copy onto local computer
 
 # To create and activate an Anaconda virtual environment specific to the game, use the command: 
-    conda create -n my-game-env python=3.8 # (only use this the first time), 
+    conda create -n my-game-env python=3.8 # (only use this the first time) 
 # Then activate environment with command: 
     conda activate my-game-env
 
